@@ -1,0 +1,129 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.header__container-section2, .header__container-openNavbarMobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__container-section1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.header__container-section1__container-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container-section1__container-logo--img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.header__container-section2__container-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container-section2__container-btn--i, .header__container-openNavbarMobile--btn {
+    position: relative;
+    font-size: 1.1em;
+    color: var(--colorLetra2);
+}
+
+.header__container-section2__container-btn--i:nth-child(2) {
+    margin-right: 20px;
+}
+
+.header__nav {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: -10000px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    transition: left .8s ease-in-out;
+}
+
+.header__navOn {
+    position: absolute;
+    left: 0;
+}
+
+.header__nav__ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header__nav__li {
+    margin: 20px 0;
+}
+
+.header__nav__li__ul-submenu {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+
+.fa-times {
+    background-color: var(--colorLetra2);
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px;
+    color: var(--colorLetra);
+}
+
+.header__container-section2__container-btn--i__contadorProductos {
+    position: absolute;
+    background-color: #f00;
+    border-radius: 50%;
+    top: -6px;
+    right: -6px;
+    padding: 2px 4px;
+    font-size: .5em;
+}
+
+.header__nav__li--modify {
+    font-size: 0;
+    color: var(--colorLetra2);
+}
+
+
+
+
+
+
+
+
+
+.header__nav__li a, .header__nav__li__li-submenu a {
+    color: var(--colorLetra2);
+}
