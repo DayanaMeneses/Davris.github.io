@@ -25,7 +25,7 @@
         <section class="header__container-section2">
             <div class="header__container-section2__container-btn">
                 <a class="header__container-section2__container-btn--i" href="">
-                    <i class="fas fa-shopping-basket"><i class="header__container-section2__container-btn--i__contadorProductos">0</i></i>
+                    <i class="fas fa-shopping-basket"><i class="header__container-section2__container-btn--i__contadorProductos">999</i></i>
                 </a>
                 <a class="header__container-section2__container-btn--i" href="./login"><i class="fas fa-user"></i></a>
             </div>

@@ -65,7 +65,7 @@
                     <p class="container-productos__container-cart__container-text--p">$ 1.000.000 COP</p>
                 </div>
             </div>
-
+            
             <div class="container-productos__container-cart">
                 <img class="container-productos__container-cart--img" src="{{ asset('img/logo.png') }}" alt="pro1">
                 <div class="container-productos__container-cart__container-text">

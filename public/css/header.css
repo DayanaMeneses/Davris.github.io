@@ -46,7 +46,7 @@
 .header__container-section2__container-btn--i, .header__container-openNavbarMobile--btn {
     position: relative;
     font-size: 1.1em;
-    color: var(--colorLetra2);
+    color: var(--colorLetra);
 }
 
 .header__container-section2__container-btn--i:nth-child(2) {
@@ -81,6 +81,12 @@
 
 .header__nav__li {
     margin: 20px 0;
+    transform: scale(1);
+    transition: transform .5s;
+}
+
+.header__nav__li:hover {
+    transform: scale(1.1);
 }
 
 .header__nav__li__ul-submenu {
@@ -103,7 +109,7 @@
 
 .header__container-section2__container-btn--i__contadorProductos {
     position: absolute;
-    background-color: #f00;
+    background-color: var(--colorFondoNumeroCart);
     border-radius: 50%;
     top: -6px;
     right: -6px;

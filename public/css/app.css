@@ -1,5 +1,5 @@
-body {
-    background: url(../img/fondo.jpg);
+body {/* 
+    background: url(../img/fondo.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,8 +9,8 @@ body {
     height: 100%;
 }
 
-body::before {
-    background-color: #000d;
+body::before {/* 
+    background-color: #000a; */
     content: "";
     position: fixed;
     width: 100%;
@@ -29,7 +29,7 @@ body::before {
 }
 
 .container-productos__container-cart {
-    background-color: #000a;
+    background-color: rgba(255, 213, 0, 0.181);
     width: 130px;
     overflow: hidden;
     border-radius: 10px;
@@ -48,8 +48,8 @@ body::before {
     text-align: center;
 }
 .container-productos__container-cart__container-text--h3, .container-productos__container-cart__container-text--p {
-    font-size: .8em;
-    color: var(--colorLetra2);
+    font-size: .8em;/* 
+    color: var(--colorLetra); */
 }
 
 

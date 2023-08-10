@@ -1,5 +1,5 @@
 .container-ft {
-    background-color: #000;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .container-ft h4, .container-ft p, .container-ft i, .container-ft a, .container-ft h3 {
-    color: var(--colorLetra2);
+    color: var(--colorLetra);
 }
 
 .container-ft--copy, .container-ft--NameWebsite {
@@ -27,6 +27,10 @@
 }
 
 .container-ft__container-social i:hover {
+    cursor: pointer;
+}
+
+.container-ft__container-social i:nth-child(1):hover {
     color: rgb(0, 115, 255);
 }
 
@@ -58,7 +62,7 @@
 
 .container-ft__container-ubi, .container-ft__container-contacto {
     width: 80%;
-    border-top: 1px solid #555;
+    border-top: 1px solid #000000;
     padding: 20px;
 }
 
